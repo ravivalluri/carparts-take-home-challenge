@@ -1,0 +1,42 @@
+{
+  "name": "carparts-take-home-challenge",
+  "version": "1.0.0",
+  "description": "Take Home Coding Challenge for carparts",
+  "author": {
+    "name": "Ravi Valluri",
+    "url": "https://codebyravicom"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "dev:server": "cd client && yarn build && cd .. && yarn start",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.12.3",
+    "concurrently": "^5.3.0",
+    "material-ui": "^0.20.2",
+    "nodemon": "^2.0.12",
+    "rc-table": "^7.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codebyravi/carparts-take-home-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codebyravi/carparts-take-home-challenge/issues"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}

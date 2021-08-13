@@ -1,0 +1,53 @@
+[
+    {
+        "id": 0,
+        "firstName": "Melody",
+        "lastName": "Rivera"
+    },
+    {
+        "id": 1,
+        "firstName": "Conrad",
+        "lastName": "Taylor"
+    },
+    {
+        "id": 2,
+        "firstName": "Katie",
+        "lastName": "Hinton"
+    },
+    {
+        "id": 3,
+        "firstName": "Roxy",
+        "lastName": "Yates"
+    },
+    {
+        "id": 4,
+        "firstName": "Jameel",
+        "lastName": "Orozco"
+    },
+    {
+        "id": 5,
+        "firstName": "Connie",
+        "lastName": "Kinney"
+    },
+    {
+        "id": 6,
+        "firstName": "Demi",
+        "lastName": "Stanton",
+        "Banned": true
+    },
+    {
+        "id": 7,
+        "firstName": "Mattie",
+        "lastName": "Parkes"
+    },
+    {
+        "id": 8,
+        "firstName": "Beatrice",
+        "lastName": "Paine"
+    },
+    {
+        "id": 9,
+        "firstName": "Adaline",
+        "lastName": "Winters"
+    }
+]
